@@ -12,6 +12,12 @@ import java.util.Map;
  */
 public class KeyCounts {
 
+    /**
+     * Computes the key counts from a given file. Also prints the key counts.
+     * Assumes negative values are valid and treats them accordingly.
+     * @param filepath - path to the file
+     * @return Map containing the key and computed values
+     */
     public Map<String, Integer> calculateKeyCounts(String filepath) {
         Map<String, Integer> result = new HashMap<String, Integer>();
         File file = new File(filepath);
