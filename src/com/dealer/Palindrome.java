@@ -7,7 +7,8 @@ public class Palindrome {
 
     /**
      * Checks if a string is a palindrome. Ignores case and all
-     * non-alphabetical characters.
+     * non-alphabetical characters. Note: an empty string is assumed
+     * to be a valid palindrome.
      * @param str
      *      The input string
      * @return Boolean result of the string being a palindrome
