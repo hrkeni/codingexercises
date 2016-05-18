@@ -3,6 +3,7 @@ package com.dealer;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    KeyCounts kc = new KeyCounts();
+        kc.calculateKeyCounts("test1.txt");
     }
 }
